@@ -708,6 +708,21 @@ p {
     margin-left: 50%;
 }
 
+.accelerators h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.accelerators h4{
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.accelerators p{
+    font-size: 16px;
+}
+
 /*------------------------------------------*/
 /*   Header Solid-Background
 /*------------------------------------------*/
