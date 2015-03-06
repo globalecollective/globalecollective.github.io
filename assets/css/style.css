@@ -695,7 +695,7 @@ p {
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #6ec1c2;
+    border-top: 20px solid rgba(110,193,194,0.9);
     margin-left: 50%;
 }
 
@@ -704,7 +704,7 @@ p {
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid #f1831d;
+    border-top: 20px solid rgba(241,131,29,0.9);
     margin-left: 50%;
 }
 
@@ -720,7 +720,12 @@ p {
 }
 
 .accelerators p{
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.logo {
+    padding-top: 80px;
+    text-align: center;
 }
 
 /*------------------------------------------*/
@@ -1865,3 +1870,69 @@ p {
     font-family: 'Open Sans', serif;
     color:#fff;
 }
+
+/* ==========================================================================
+   16. Tuition
+========================================================================== */ 
+.tuition {
+    text-align: left;
+}
+
+.tuition h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.tuition h2 {
+    text-align: left;
+}
+
+.tuitioncost {
+    padding-top: 15px;
+    font-size: 75px;
+    text-align: center;
+    color: #F28F33
+}
+
+.tuitiontime {
+    padding-top: 10px;
+    line-height: 35px;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.fa-birthday-cake{
+    color: #F28F33;
+}
+
+.fa-clock-o{
+    color: #F28F33;
+}
+
+.fa-calendar{
+    color: #F28F33;
+}
+
+/* ==========================================================================
+   16. Terms and Conditions
+========================================================================== */ 
+
+.terms a{
+    color: grey;
+}
+
+.termtitle h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.termdesc p{
+    font-size: 12px;
+}
+
+
+
+
+
